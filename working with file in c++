@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream MyFile;
+    MyFile.open("hello.text");
+    MyFile<<"hello\n";
+    MyFile.close();
+    return 0;
+}
