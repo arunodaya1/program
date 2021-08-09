@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+    class Animal {
+  public:
+    int myFunction() {
+      cout << " i can walk . " ;
+    }
+};
+class Bird : Animal {
+};
+
+class peacock : public Bird  {
+};
+
+int main() {
+  peacock p1;
+  p1.myFunction();
+
+
+    return 0;
+}
+
+       
