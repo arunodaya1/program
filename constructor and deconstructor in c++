@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class Mother
+{
+    public:
+    Mother()
+    {
+        cout<<"Hii mom"<<endl;
+    
+    }
+    ~Mother()
+     {
+         cout<<"how r u ?"<<endl;
+     }
+     };
+
+int main() {
+    Mother m;
+}
