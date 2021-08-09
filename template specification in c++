@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+template <class t>
+class myclass{
+    public:
+    myclass(t x){
+        cout<<x<<" is not char character!"<<endl;
+          }
+};
+template<>
+class myclass<char>{
+public:
+ myclass(char x){
+    cout<<x<<" is a character!"<<endl;
+    }
+};
+int main() {
+    myclass<int> obj1(62);
+    myclass<char> obj2('h'); 
+}
