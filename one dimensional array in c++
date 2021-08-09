@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int myArr[5];
+    int sum;
+    
+    for(int x=0;x<=4;x++){
+    myArr[x]=42;
+    sum+=myArr[x];
+    cout<<x<<":"<<myArr[x]<<endl;
+    }
+    cout<<"sum of element:"<<sum;
+
+  
+        
+        return 0;
+}
