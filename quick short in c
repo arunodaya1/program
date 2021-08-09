@@ -1,0 +1,48 @@
+#include<conio.h>
+#include <stdio.h>
+
+#define MAX 30
+enum bool {False}
+
+enum bool{FALSE,TRUE};
+void Dispaly(int arr[],int low,int up)
+{
+    int i;
+    for(i=low;i<=up;i++)
+    printf("%d" ,arr[i]);
+
+}
+
+void quick(int arr[],int low, int up)
+{
+    int i;
+    for(i=low;i<=high;i++)
+    printf("%d" , arr[i]);
+}
+void quick (int arr[],int low ,int up)
+{
+    int piv,left,right,temp;
+    enum bool pivot_placed=FALSE;
+    left=low;
+    right=up;
+    piv=low;
+
+    if(low>=up)
+    return;
+    printf("\sublist:");
+    display(arr,low,up);
+    while(pivot_placed==FALSE)
+    {
+     while(arr[piv]<=arr[right] && piv!=right)
+     right=right-1;
+     if(piv=right)
+     pivot_placed=TRUE;
+     if(arr[piv]>arr[right])
+     {
+         
+     }
+    }
+}
+int main() {
+    return 0;
+}
