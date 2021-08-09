@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a[3][4],i,j;
+    cout<<"please enter 4*5 matrix"<<endl;
+    for(i=0;i<=3;i++){
+        for(j=0;j<=4;j++)
+        cin>>a[i][j];
+    }
+    cout<<"transpose of matrix:"<<"\n";
+    for(j=0;j<=4;j++){
+        for(i=0;i<=3;i++)
+        cout<<a[i][j]<<"\t";
+    
+    cout<<"\n";
+    }
+    return 0;
+}
