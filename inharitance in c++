@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+class Mother{
+    public:
+    Mother()
+    {};
+    void sayhii()
+    {
+        cout<<"hii!"<<endl;
+        cout<<"how r u ?"<<endl;
+    
+        
+    }
+};
+class Daughter:public Mother
+{
+    public:
+    Daughter()
+    {};
+};
+
+
+int main() {
+    Daughter d;
+    d.sayhii();
+    
+}
