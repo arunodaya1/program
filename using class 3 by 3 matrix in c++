@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+class matrix
+{
+    int i, j;
+    int Arr[i][j];
+    {
+    void readmatrix()
+    void displaymatrix()
+    {
+        for(int i=1;i<=3;i++)
+        {
+            for(int j=1; j<=3;j++)
+
+    }
+    matrix:: void readmatrix()
+    {
+        cout<<"A[i][j]";
+        cin>>A[3][3];
+
+    }
+    matrix::void displaymatrix()
+    {
+        cout<<"A[i][j]";
+        cin>>A[3][3];
+    }
+}
+    
+
+int main() {
+    matrix m;
+    m.readmatrix();
+    m.displaymatrix();
+    return 0;
+}
+}
+};
