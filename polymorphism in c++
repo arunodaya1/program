@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+class Enemy
+{
+    public:
+    int attackPower;
+    public :
+    void setattackPower(int a)
+    {
+     attackPower=a;
+}
+};
+
+class Ninja :public Enemy{
+    public :
+    void attack()
+    {
+        cout<<"Ninja-"<<attackPower<<endl;
+    }
+};
+    class Monster : public Enemy{
+        public :
+        void attack(){
+            cout<<"Monster-"<<attackPower<<endl;
+        }
+        };
+
+int main() {
+    Ninja n;
+    Monster m;
+    Ninja*e1=&n;
+    Monster*e2=&m;
+    e1->setattackPower(20);
+    e2->setattackPower(80);
+    n.attack();
+    m.attack();
+
+}
