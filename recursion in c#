@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class Program
+	{
+        static void Main(string[] args){
+           int level=Int32.Parse(Console.ReadLine());
+           Console.WriteLine(point(level));
+
+
+        }
+        static int point(int level){
+            if(level==0)
+              return 0;
+            else if(level==1)
+              return 1;
+            return level+point(level-1);
+        }  
+
+        }
+			
+		}
+	
+
