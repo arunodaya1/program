@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class Program
+	{
+        class Person
+        {
+            private string name;
+            private int age;
+            public string Name{
+                get{return name;}
+                set{name=value;}
+
+            }
+            public int Age{get;set;}
+        }
+		static void Main(string[] args)
+		{Person P=new Person();
+        P.Name="Trapti";
+        P.Age=19;
+        Console.WriteLine(P.Name);
+        Console.WriteLine(P.Age);
+			
+		}
+	}
+}
+
+output:Trapti
+19
