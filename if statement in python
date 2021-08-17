@@ -1,0 +1,12 @@
+x=19
+if x>5:
+    print("19 is greater than 5")
+    if x<78:
+        print("between 5 and 78!")
+        if x>4:
+            print("five")
+            
+            
+            
+            //output:19 is greater than 5 between 5 and 78!
+             five
