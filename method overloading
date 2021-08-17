@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class Program
+	{
+        static void Print(int a,int b){
+            int c=a+b;
+            Console.WriteLine("integer value:"+c);
+            Console.WriteLine("integer value:"+b);
+           
+                
+            }
+            static void Print(double a){
+                Console.WriteLine("double value:"+a);
+
+
+            }
+            static void Print(string a){
+                Console.WriteLine("string value:"+a);
+            }
+			
+		static void Main(string[] args)
+		{
+            Print(45,5);
+            Print(76.4);
+            Print("hii there...");
+            
+		}
+	}
+}
