@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class Program
+	{
+        class Post{
+            public string text;
+            public Post(){
+                text="New Post";
+            }
+        }
+		static void Main(string[] args)
+		{string str;
+        str=Console.ReadLine();
+        Post Show=new Post();
+        Console.WriteLine(Show.text);
+        Console.WriteLine("{0}\n",str);
+			
+		}
+	}
+}
