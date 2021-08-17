@@ -1,0 +1,21 @@
+if(2 == 2)and(1+1 ==1 ):
+    print("yes")
+else:
+     print("no") 
+     age=16
+     money=600
+if(age>19 or money>100):
+     print("welcome")  
+if not 3==3:
+    print("1")
+elif not (1+1==4):
+    print("2")
+else:
+    print("3")
+    
+    
+    
+    //output:no
+            welcome
+            2
+ 
