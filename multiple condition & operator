@@ -1,0 +1,21 @@
+if 5+8*4==7:
+    print("yes!")
+else:
+    print("no!")
+    money=700
+if (money>=100 and money<=700):
+    print("welcome!!")
+    x=3
+    y=6
+    if not 1+2==x or not 8==8 and y==6:
+        print("hello!")
+    elif x<y:
+        print("hii!")
+    else:
+        print("how are you...?")  
+        
+        
+        
+        //output:no!
+                 welcome!!
+                 hii!
