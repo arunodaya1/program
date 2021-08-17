@@ -1,0 +1,42 @@
+nums=[0,1,2,3]
+nums[2]=7
+print(nums)
+nums[3]=nums[1]
+print(nums)
+print(nums + [4,5,6,7])
+print(nums*4)
+name="aruna " 
+print(name + " ahirwar ")
+print(name * 4)
+words=[" hey " ," aruna " ," how are you...?"]
+print(" hey " in words)
+print(" aruna " in words)
+print(" how are you... ?" in words)
+nums[1]=nums[2]-9
+if 7 in nums:
+ print(nums[3])
+else:
+ print(num[2])
+print(nums) 
+print(7 not in nums)
+print(not 7 in nums)
+print(8 not in nums)
+print(not 8 in nums)
+
+
+
+//OUTPUT:[0, 1, 7, 3]
+[0, 1, 7, 1]
+[0, 1, 7, 1, 4, 5, 6, 7]
+[0, 1, 7, 1, 0, 1, 7, 1, 0, 1, 7, 1, 0, 1, 7, 1]
+aruna  ahirwar 
+aruna aruna aruna aruna 
+True
+True
+False
+1
+[0, -2, 7, 1]
+False
+False
+True
+True
