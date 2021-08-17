@@ -1,0 +1,32 @@
+words=["Studends name-","aruna","Swati","Shreya"]
+print(words[0])
+print(words[1])
+print(words[2])
+print(words[3])
+words=[]
+print("hello all student!!")
+m = [
+[1, 2 ,3],
+[4 ,5 ,6]
+]
+print(m[0][0])
+print(m[0][1])
+print(m[0][2])
+print(m[1][0])
+print(m[1][1])
+print(m[1][2])
+str="hello students"
+print(str[0])
+print(str[1])
+print(str[2])
+print(str[3])
+print(str[4])
+print(str[5])
+print(str[6])
+print(str[7])
+print(str[8])
+print(str[9])
+print(str[10])
+print(str[11])
+print(str[12])
+print(str[13])
