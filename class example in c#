@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+	class program
+	{
+        class Dog {
+
+           public string name;
+           public int age;
+          
+           } 
+    
+          
+		static void Main(string[] args)
+		{
+            Dog D=new Dog();
+            D.name="Bobby";
+            D.age=3;
+          
+            Console.WriteLine("your doggy name is:{0}! \n and your doggy's age is: {1} year! ",D.name,D.age);
+          
+    } 
+			
+		}
+	
+}
