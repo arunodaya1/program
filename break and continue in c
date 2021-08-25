@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    double number;
+    int sum=0;
+    for(int i=1;i<10;i++){
+        printf("enter the number :");
+        scanf("%lf",&number);
+        printf("%lf\n",number);
+        if(number<0)
+        break;
+        
+        if(number>1000){
+            printf("number greater than 1000 not allowed");
+
+   
+        continue;
+        }
+        
+    sum+=number; 
+    }
+    printf("sum=%d\n",sum);
+    
+    return 0;
+}
