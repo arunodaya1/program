@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char name[40];
+    printf("enter your name :");
+    scanf("%[^\n]s",name);
+    printf("%s\n",name);
+    char destination[50]="hello ";
+    char source[50]="world ";
+    strcat(destination,source);
+    printf("strcat:%s\n",destination);
+    char str1[40]="hello";
+    char str2[40]="hello";
+    int result=strcmp(str1,str2);
+    printf("strcmp result:%d\n",result);
+    if(result==0){
+        printf("string are equal\n");    
+    }
+    else{
+        printf("string are unequal\n");
+    }
+    strcpy(destination, source);
+    printf("%s\n",destination);
+    char myname[]="arunodaya";
+    int length= strlen(myname);
+    printf("length of string is %d\n",length); 
+
+    return 0;
+}
