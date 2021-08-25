@@ -1,0 +1,16 @@
+intro="hello i'm aru"
+file=open("newfile.txt","w")
+x=file.write(intro)
+print(x)
+file.close()
+file=open("newfile","a")
+x=file.write(" hii")
+print(x)
+file.close()
+try:
+    file=open("newfile.txt","r")
+    print(file.read())
+finally:
+    file.close()
+with open("newfile.txt","r") as file:
+    print(file.read())    
