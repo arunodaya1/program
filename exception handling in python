@@ -1,0 +1,7 @@
+try:
+    word="spam"
+    print(word)
+except:
+    print("an error occurred") 
+else:
+    print(1)
