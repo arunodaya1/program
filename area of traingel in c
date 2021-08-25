@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int s ,a,b,c,area;
+    printf("enter the three side of triangle");
+    scanf("%d %d %d",&a,&b,&c);
+    s=a+b+c/2;
+    if ((s>a)&&(s>b)&&(s>c))
+    {
+        area=sqrt(s*(s-a)*(s-b)*(s-c));
+        printf("\n Area is %d",area);
+    }
+    else
+    printf("\nthis is not a close triangle");
+    return 0;
+}
