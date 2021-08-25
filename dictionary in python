@@ -1,0 +1,25 @@
+ages={"aru":20,"shreya":18,"neer":12,"purvi":21}
+print(ages["aru"])
+print(ages["neer"])
+print(ages["purvi"])
+cars={"BMW":"blue","VOLVO":"red"}
+print(cars["BMW"])
+print(cars["VOLVO"])
+primary={
+    "red":[1,2,3],
+    "green":[4,5,6]
+}
+print(primary["red"])
+
+squares={1:1,2:4,3:'error'}
+squares[8]=64 #dictionary key be assigned to different values
+
+squares[3]=9
+print(squares)
+primes={1:2,2:3,3:4,4:12,12:19}
+print(primes[primes[primes[primes[2]]]])
+print(1 in primes)
+print(17 not in primes)
+print(2 not in primes)
+print(primes.get(4))
+print(primes.get(123 in primes))
