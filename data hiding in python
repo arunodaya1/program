@@ -1,0 +1,17 @@
+class Account:
+    username="arunodaya"
+    _balance=350000
+    __passward="abcd"
+    def show_info(self):
+        x=f"username:{self.username }\n balance: {self._balance}\n"
+        return x
+obj=Account()
+print(".....accessing output from outside the class...")
+print("username:",obj.username)
+print("balance:",obj._balance)
+print("passward:",obj._Account__passward)
+
+print("\n\n")
+
+print("--- Calls the show_info method ---")
+print(obj.show_info())        
