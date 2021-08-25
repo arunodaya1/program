@@ -1,0 +1,25 @@
+x=None
+y="none"
+if x==y:
+    print(x)    
+else:
+    print(y)
+x=None
+y=None
+if x==y:
+    print("true")
+else:
+    print("false") 
+if bool([])==bool():
+    print("yes")
+else:
+    print("no") 
+def say_hi():
+    print("hii")
+var=say_hi()
+print(var)
+x=print()
+if x==None:
+    print(2)
+else:
+    print(1)           
