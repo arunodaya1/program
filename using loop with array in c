@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int purchases[10]={5,3,6,6,3,5,2,4,6,76};
+    int total=0;
+    int k;
+    for(k=0;k<10;k++){
+        total +=purchases[k];
+    }
+    printf("total purchases is %d",total);
+    return 0;
+}
