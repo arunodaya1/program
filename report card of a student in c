@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main() {
+    int standard;
+    char section[05];
+    int maths,science,sst,eng,hindi;
+    printf("Jawahar Navodaya Vidyalaya \n  Sriyank Siddhartha\n");
+   
+    printf(" Annual report card\n");
+    printf("standard:");
+    scanf("%d",&standard);
+    printf("%d\n",standard);
+    printf("section:");
+    scanf("%s",section);
+    printf("%s\n",section);
+
+    printf("marks secured out of 100:\n");
+    printf("mathematics :");
+    scanf("%d",&maths);
+    printf("%d\n",maths);
+    printf("english :");
+    scanf("%d",&eng);
+    printf("%d\n",eng);
+    printf("Hindi :");
+    scanf("%d",&hindi);
+    printf("%d\n",hindi);
+    printf("science :");
+    scanf("%d",&science);
+    printf("%d\n",science);
+    printf("social science :");
+    scanf("%d",&sst);
+    printf("%d\n",sst);
+    int totalMarks=maths+eng+hindi+science+sst;
+    printf("total marks secured:%d\n",totalMarks);
+    if(totalMarks>=450 && totalMarks<=500){
+        printf("Grade A");
+    }
+    else if(totalMarks>=400 && totalMarks<=449){
+        printf("Grade B");
+
+    }
+    else if(totalMarks>=350 && totalMarks<=399){
+        printf("Grade C");
+
+    }
+    else if(totalMarks>=300 && totalMarks<=350){
+        printf("Grade D");
+    }
+    else if(totalMarks>=200 && totalMarks<=299){
+        printf("Grade E");
+    }
+    else{
+        printf("Grade F");
+    }
+    return 0;
+}
