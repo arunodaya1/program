@@ -1,0 +1,29 @@
+#include <stdio.h>
+int sum(int , int);
+int SumOfThreeNo(int, int, int);
+int main() {
+    printf("hii\n");
+   int sum1=sum(6,9);
+    printf("the sum of two no is %d\n",sum1);
+   int sum2=sum(45,67);
+   printf("the sum of second two no is %d\n",sum2); 
+   int sum3=sum(5,7);
+   sum3++;
+    sum(6,8);
+    int sums=SumOfThreeNo(67,87,56);
+   printf("the sum of three no %d\n",sums); 
+
+
+
+
+    return 0;
+}
+int sum(int num1, int num2){
+    int s=num1+num2;
+    printf("the sum is %d\n",s);
+    return s;
+}
+int SumOfThreeNo(int n1,int n2,int n3){
+    int sums=n1+n2+n3;
+    return sums;
+}
